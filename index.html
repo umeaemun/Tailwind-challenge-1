@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Challenge-1</title>
+  </head>
+  <body class="">
+    <!-- navbar -->
+    <nav class="pl-5 pr-10 relative container mx-auto py-5">
+      <div class="flex flex-row items-center justify-between">
+        <!-- logo & menu-items -->
+
+        <div class="items-center space-x-6 flex">
+          <img class="mr-10 mt-3" src="./images/logo.svg" alt="" />
+
+          <div class="hidden md:flex flex-row space-x-2">
+            <a href="" class="font-semibold text-gray-500 hover:text-black"
+              >Features</a
+            >
+            <img
+              class="max-h-2 mt-2.5 cursor-pointer"
+              src="./images/icon-arrow-down.svg"
+              alt=""
+            />
+          </div>
+          <div class="hidden md:flex flex-row space-x-2">
+            <a href="" class="font-semibold text-gray-500 hover:text-black"
+              >Company</a
+            >
+            <img
+              class="max-h-2 mt-2.5"
+              src="./images/icon-arrow-down.svg"
+              alt=""
+            />
+          </div>
+
+          <a
+            href=""
+            class="hidden md:flex font-semibold text-gray-500 hover:text-black"
+            >Careers</a
+          >
+          <a
+            href=""
+            class="hidden md:flex font-semibold text-gray-500 hover:text-black"
+            >About</a
+          >
+        </div>
+
+        <!-- login/Register -->
+        <div class="hidden space-x-10 md:flex items-center font-semibold">
+          <p class="cursor-pointer text-gray-500 hover:text-black">Login</p>
+          <button
+            class="cursor-pointer border-2 p-2 px-5 text-gray-500 hover:text-black border-gray-500 hover:border-black rounded-xl"
+          >
+            Register
+          </button>
+        </div>
+      
+      <!-- hamburger icon -->
+      <button
+      id="menu-btn"
+      class="block hamburger md:hidden focus:outline-none"
+    >
+      <span class="hamburger-top"></span>
+      <span class="hamburger-middle"></span>
+      <span class="hamburger-bottom"></span>
+    </button>
+  </div>
+</div>
+  <!-- mobile menu -->
+  <div class="md:hidden">
+    <div
+      id="menu"
+      class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+    >
+    <div class="flex flex-row space-x-2">
+        <a href="" class="font-semibold text-gray-500 hover:text-black"
+          >Features</a
+        >
+        <img
+          class="max-h-2 mt-2.5 cursor-pointer"
+          src="./images/icon-arrow-down.svg"
+          alt=""
+        />
+      </div>
+      <div class="flex flex-row space-x-2">
+        <a href="" class="font-semibold text-gray-500 hover:text-black"
+          >Company</a
+        >
+        <img
+          class="max-h-2 mt-2.5"
+          src="./images/icon-arrow-down.svg"
+          alt=""
+        />
+      </div>
+
+      <a
+        href=""
+        class=" font-semibold text-gray-500 hover:text-black"
+        >Careers</a
+      >
+      <a
+        href=""
+        class=" font-semibold text-gray-500 hover:text-black"
+        >About</a
+      >
+    </div>
+  </div>
+    </nav>
+
+    <!-- hero section -->
+    <section
+      id="hero"
+      class="flex flex-col-reverse md:px-20 md:flex-row md:space-x-6"
+    >
+      <!-- desktop left -->
+      <div class="hidden container md:w-3/5 md:flex flex-col pl-24 pt-32">
+        <h2 class="text-6xl font-bold">Make</h2>
+        <h2 class="text-6xl font-bold">remote work</h2>
+        <p class="text-2xl md:text-base font-semibold py-14 text-gray-500">
+          Get your team in sync, no matter your location.<br />Streamline
+          processes, create team rituals, and <br />watch productivity soar.
+        </p>
+        <button
+          class="cursor-pointer w-36 p-2 px-3 bg-black hover:bg-white hover:border-2 hover:border-black text-white hover:text-black rounded-xl"
+        >
+          Learn more
+        </button>
+
+        <!-- bottom logos -->
+        <div class="flex flex-row space-x-7 mt-28 items-center">
+          <img
+            class="max-h-4 cursor-pointer"
+            src="./images/client-databiz.svg"
+            alt=""
+          />
+          <img
+            class="max-h-6 cursor-pointer"
+            src="./images/client-audiophile.svg"
+            alt=""
+          />
+          <img
+            class="max-h-6 cursor-pointer"
+            src="./images/client-meet.svg"
+            alt=""
+          />
+          <img
+            class="max-h-6 cursor-pointer"
+            src="./images/client-maker.svg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- mobil left -->
+      <div
+        class="container md:w-3/5 flex flex-col items-center px-5 pt-16 md:hidden"
+      >
+        <h2 class="text-5xl font-bold">Make remote work</h2>
+        <p
+          class="text-xl text-center font-semibold align-middle py-10 text-gray-500"
+        >
+          Get your team in sync, no matter your<br />
+          location.Streamline processes, create<br />
+          team rituals, and watch productivity soar.
+        </p>
+        <button
+          class="cursor-pointer w-4/12 mb-16 p-2 px-3 bg-black hover:bg-white hover:border-2 hover:border-black text-white hover:text-black rounded-xl"
+        >
+          Learn more
+        </button>
+
+        <!-- bottom logos -->
+        <div class="flex flex-row space-x-7 mb-24 items-center">
+          <img
+            class="max-h-4 cursor-pointer"
+            src="./images/client-databiz.svg"
+            alt=""
+          />
+          <img
+            class="max-h-6 cursor-pointer"
+            src="./images/client-audiophile.svg"
+            alt=""
+          />
+          <img
+            class="max-h-6 cursor-pointer"
+            src="./images/client-meet.svg"
+            alt=""
+          />
+          <img
+            class="max-h-6 cursor-pointer"
+            src="./images/client-maker.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- right -->
+      <div class="container md:w-2/5 flex flex-col">
+        <div class="hidden md:flex p-12 pr-16 mb-40">
+          <img src="./images/image-hero-desktop.png" alt="" />
+        </div>
+        <div class="flex md:hidden">
+          <img src="./images/image-hero-mobile.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
